@@ -8,7 +8,7 @@ The Cost is a mobile web demo for Outside Lands 2026. Pick the artists you want 
 
 ## Built with Codex, directed by Jason Berland
 
-Jason chose the framework, directed Codex, and checked its output. Codex wrote all the code. The initial version was built in about 5 hours at an OpenAI-sponsored OutsideLLMS hackathon. An OpenAI judge named it her favorite project of the day. The repository also includes refinements and testing added after the event.
+Jason chose the framework, directed Codex, and checked its output. Codex wrote all the code. The first version was built at the OpenAI-sponsored OutsideLLMS hackathon, where an OpenAI judge picked it as her favorite project of the day. The repository also includes refinements and testing added after the event.
 
 Jason's direction was to make the cost sentence the product: keep the scope small, calculate times in code, make uncertainty visible, and avoid inventing vendor coordinates. ChatGPT Sites was the required hackathon deployment target. A map, accounts, saved plans, and live data integrations were deliberately left out.
 
