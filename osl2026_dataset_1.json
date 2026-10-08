@@ -1,0 +1,2173 @@
+{
+  "meta": {
+    "name": "Outside Lands 2026 dataset for OutsideLLMS hackathon",
+    "built": "2026-08-01 evening, night before hackathon",
+    "festival_dates": [
+      "2026-08-07",
+      "2026-08-08",
+      "2026-08-09"
+    ],
+    "venue": "Golden Gate Park, San Francisco",
+    "time_format": "24h, Pacific",
+    "sources": [
+      "https://riffmagazine.com/festivals/outside-lands-music-festival-2026-set-times/",
+      "https://sfstandard.com/2026/05/12/outside-lands-food-2026/",
+      "https://sfist.com/2026/05/12/outside-lands-food-lineup-includes-sf/",
+      "https://www.ediblesf.com/home/outsidelands-2026-taste-of-the-bay-area-food-line-up",
+      "https://sfoutsidelands.com/food-and-drink/taste-of-the-bay-area/",
+      "https://sfist.com/2026/07/21/outside-lands-brings-back-secret-snack-menu-reveals-limited-edition-dishes/"
+    ],
+    "vendor_location_source": "Outside Lands iPhone app, Taste of the Bay Area vendor detail rows, captured 2026-08-02",
+    "provenance": {
+      "set_times": {
+        "source": "Outside Lands published schedule, captured via RIFF",
+        "precision": "published time"
+      },
+      "stage_walk_times": {
+        "source": "Prior-year Golden Gate Park festival maps",
+        "precision": "estimate"
+      },
+      "food_stop_times": {
+        "source": "Product assumption",
+        "precision": "estimate"
+      },
+      "vendor_areas": {
+        "source": "Outside Lands iPhone app vendor detail rows",
+        "precision": "area label only; no coordinates"
+      },
+      "scarcity": {
+        "source": "Published SFist Snack Series and limited-edition report",
+        "precision": "published ceiling or quantity"
+      }
+    },
+    "known_gaps": [
+      "Park-area labels were verified for 27 vendor records from individual OSL app detail rows. 74 vendor.location fields remain TBD. A16 appears in two VIP detail rows and remains TBD because this dataset currently supports one location per vendor.",
+      "Walk times are estimates from prior-year Golden Gate Park maps, not measured. Verify against the official 2026 map.",
+      "Dish lists are complete only for the ~24 vendors press coverage named. The other 77 are name-and-tier only; fill from the app or the OSL site if dish-level matching matters.",
+      "Snack Series is 20+ vendors; only 4 are public so far.",
+      "Organizer Trav confirmed on the OSLLMSG board that set times will be in the JamBase dataset Andy Gadiel provides at the event. Reconcile at kickoff.",
+      "Sunday Panhandle shows Silvana Estrada and Infinity Song overlapping in the source. Verify onsite."
+    ]
+  },
+  "stages": [
+    {
+      "id": "lands_end",
+      "name": "Lands End",
+      "artist_lineup": true,
+      "area_estimate": "Polo Field (west end)",
+      "verified": false
+    },
+    {
+      "id": "twin_peaks",
+      "name": "Twin Peaks",
+      "artist_lineup": true,
+      "area_estimate": "Hellman Hollow",
+      "verified": false
+    },
+    {
+      "id": "sutro",
+      "name": "Sutro",
+      "artist_lineup": true,
+      "area_estimate": "Lindley Meadow",
+      "verified": false
+    },
+    {
+      "id": "panhandle",
+      "name": "Panhandle (presented by TheraBreath)",
+      "artist_lineup": true,
+      "area_estimate": "Marx Meadow (east side)",
+      "verified": false
+    },
+    {
+      "id": "soma",
+      "name": "SOMA",
+      "artist_lineup": true,
+      "area_estimate": null,
+      "verified": false
+    },
+    {
+      "id": "dolores",
+      "name": "Dolores'",
+      "artist_lineup": true,
+      "daily_names": {
+        "friday": "Hot Goth GF @ Dolores'",
+        "saturday": "Oasis @ Dolores'",
+        "sunday": "Polyamorous @ Dolores'"
+      },
+      "area_estimate": null,
+      "verified": false
+    },
+    {
+      "id": "duboce_triangle",
+      "name": "Duboce Triangle (presented by Verizon)",
+      "artist_lineup": true,
+      "area_estimate": null,
+      "verified": false
+    },
+    {
+      "id": "cocktail_magic",
+      "name": "Cocktail Magic",
+      "artist_lineup": false,
+      "area_estimate": null,
+      "verified": false
+    }
+  ],
+  "walk_times_minutes_estimated": {
+    "note": "Rough, gate-to-gate with festival crowds. Treat as floor, add 5 min during headliner moves.",
+    "pairs": [
+      {
+        "from": "lands_end",
+        "to": "twin_peaks",
+        "min": 12
+      },
+      {
+        "from": "lands_end",
+        "to": "sutro",
+        "min": 15
+      },
+      {
+        "from": "lands_end",
+        "to": "panhandle",
+        "min": 22
+      },
+      {
+        "from": "twin_peaks",
+        "to": "sutro",
+        "min": 8
+      },
+      {
+        "from": "twin_peaks",
+        "to": "panhandle",
+        "min": 12
+      },
+      {
+        "from": "sutro",
+        "to": "panhandle",
+        "min": 10
+      }
+    ]
+  },
+  "schedule": {
+    "friday_2026-08-07": {
+      "lands_end": [
+        {
+          "artist": "Faouzia",
+          "start": "12:05",
+          "end": "12:50"
+        },
+        {
+          "artist": "Grace Ives",
+          "start": "13:20",
+          "end": "14:05"
+        },
+        {
+          "artist": "Durand Bernarr",
+          "start": "14:35",
+          "end": "15:25"
+        },
+        {
+          "artist": "Wet Leg",
+          "start": "15:55",
+          "end": "16:45"
+        },
+        {
+          "artist": "GloRilla",
+          "start": "17:15",
+          "end": "18:15"
+        },
+        {
+          "artist": "Labrinth",
+          "start": "18:45",
+          "end": "19:55"
+        },
+        {
+          "artist": "Charli xcx",
+          "start": "20:40",
+          "end": "21:55"
+        }
+      ],
+      "twin_peaks": [
+        {
+          "artist": "Nezza",
+          "start": "12:35",
+          "end": "13:20"
+        },
+        {
+          "artist": "Kerala Dust",
+          "start": "14:05",
+          "end": "14:50"
+        },
+        {
+          "artist": "Alleycvt",
+          "start": "15:35",
+          "end": "16:25"
+        },
+        {
+          "artist": "Tinashe",
+          "start": "17:10",
+          "end": "18:00"
+        },
+        {
+          "artist": "Clipse",
+          "start": "18:45",
+          "end": "19:35",
+          "flag": "DEMO_ANCHOR"
+        },
+        {
+          "artist": "GRiZTRONICS",
+          "start": "20:25",
+          "end": "21:50"
+        }
+      ],
+      "sutro": [
+        {
+          "artist": "Bad Nerves",
+          "start": "12:25",
+          "end": "13:10"
+        },
+        {
+          "artist": "Die Spitz",
+          "start": "13:40",
+          "end": "14:25"
+        },
+        {
+          "artist": "The Story So Far",
+          "start": "14:55",
+          "end": "15:40"
+        },
+        {
+          "artist": "Sierra Ferrell",
+          "start": "16:10",
+          "end": "17:10"
+        },
+        {
+          "artist": "Geese",
+          "start": "17:50",
+          "end": "18:50"
+        },
+        {
+          "artist": "Turnstile",
+          "start": "19:20",
+          "end": "20:20"
+        },
+        {
+          "artist": "Modest Mouse",
+          "start": "20:50",
+          "end": "21:50"
+        }
+      ],
+      "panhandle": [
+        {
+          "artist": "Dani Satin & Always Halloways",
+          "start": "12:00",
+          "end": "12:30"
+        },
+        {
+          "artist": "Chezile",
+          "start": "13:20",
+          "end": "14:00"
+        },
+        {
+          "artist": "Sawyer Hill",
+          "start": "14:50",
+          "end": "15:30"
+        },
+        {
+          "artist": "Billie Marten",
+          "start": "16:25",
+          "end": "17:05"
+        },
+        {
+          "artist": "Goldie Boutilier",
+          "start": "18:00",
+          "end": "18:40"
+        },
+        {
+          "artist": "Dylan Brady",
+          "start": "19:35",
+          "end": "20:20"
+        }
+      ],
+      "soma": [
+        {
+          "artist": "Vertigo",
+          "start": "12:00",
+          "end": "12:55"
+        },
+        {
+          "artist": "Luke Alessi",
+          "start": "12:55",
+          "end": "14:25"
+        },
+        {
+          "artist": "Tobiahs",
+          "start": "14:25",
+          "end": "15:55"
+        },
+        {
+          "artist": "MPH",
+          "start": "15:55",
+          "end": "17:25"
+        },
+        {
+          "artist": "K/ki",
+          "start": "17:25",
+          "end": "18:55"
+        },
+        {
+          "artist": "Yousuke Yukimatsu",
+          "start": "18:55",
+          "end": "20:25"
+        },
+        {
+          "artist": "Odd Mob & Omnom Present Hyperbeam",
+          "start": "20:25",
+          "end": "21:55"
+        }
+      ],
+      "dolores": [
+        {
+          "artist": "DJ Erinyes",
+          "start": "12:30",
+          "end": "13:15"
+        },
+        {
+          "artist": "DJ Dolomedes",
+          "start": "13:15",
+          "end": "14:00"
+        },
+        {
+          "artist": "Pink Stiletto",
+          "start": "14:00",
+          "end": "14:30"
+        },
+        {
+          "artist": "DJ Starr Noir",
+          "start": "14:30",
+          "end": "15:20"
+        },
+        {
+          "artist": "Hot Goth Freak Show",
+          "start": "15:20",
+          "end": "15:50"
+        },
+        {
+          "artist": "Soltera",
+          "start": "15:50",
+          "end": "16:35"
+        },
+        {
+          "artist": "DJ Hopeless & Hot Goth Pole Show",
+          "start": "16:35",
+          "end": "17:20"
+        },
+        {
+          "artist": "Ms. Boan",
+          "start": "17:20",
+          "end": "18:05"
+        },
+        {
+          "artist": "Hot Goth Freak Show",
+          "start": "18:05",
+          "end": "18:35"
+        },
+        {
+          "artist": "Light Asylum",
+          "start": "18:45",
+          "end": "19:30"
+        },
+        {
+          "artist": "Romy DJ set",
+          "start": "19:30",
+          "end": "20:30"
+        }
+      ],
+      "duboce_triangle": [
+        {
+          "artist": "Nezza",
+          "start": "14:05",
+          "end": "14:35"
+        },
+        {
+          "artist": "Chezile",
+          "start": "15:25",
+          "end": "15:55"
+        },
+        {
+          "artist": "Luke Alessi",
+          "start": "16:45",
+          "end": "17:15"
+        },
+        {
+          "artist": "Alleycvt",
+          "start": "18:15",
+          "end": "18:45"
+        },
+        {
+          "artist": "Tobiahs",
+          "start": "19:55",
+          "end": "20:40"
+        }
+      ],
+      "cocktail_magic": [
+        {
+          "artist": "Bingo Loco",
+          "start": "12:30",
+          "end": "13:15"
+        },
+        {
+          "artist": "Bingo Loco",
+          "start": "13:40",
+          "end": "14:25"
+        },
+        {
+          "artist": "Bingo Loco",
+          "start": "14:50",
+          "end": "15:35"
+        },
+        {
+          "artist": "Open Mic hosted by Rainbow Girls",
+          "start": "16:05",
+          "end": "16:50"
+        },
+        {
+          "artist": "Bootie Mashup: Diva Pop with DJ Tyme",
+          "start": "17:05",
+          "end": "18:05"
+        },
+        {
+          "artist": "The Emo Night Tour",
+          "start": "18:20",
+          "end": "19:20"
+        }
+      ]
+    },
+    "saturday_2026-08-08": {
+      "lands_end": [
+        {
+          "artist": "Bandalos Chinos",
+          "start": "12:10",
+          "end": "12:55"
+        },
+        {
+          "artist": "Haute & Freddy",
+          "start": "13:25",
+          "end": "14:10"
+        },
+        {
+          "artist": "Audrey Hobert",
+          "start": "14:40",
+          "end": "15:30"
+        },
+        {
+          "artist": "Lucy Dacus",
+          "start": "16:00",
+          "end": "16:50"
+        },
+        {
+          "artist": "Ethel Cain",
+          "start": "17:20",
+          "end": "18:20"
+        },
+        {
+          "artist": "Djo",
+          "start": "18:50",
+          "end": "19:50"
+        },
+        {
+          "artist": "The Strokes",
+          "start": "20:35",
+          "end": "21:55"
+        }
+      ],
+      "twin_peaks": [
+        {
+          "artist": "Red Leather",
+          "start": "12:30",
+          "end": "13:10"
+        },
+        {
+          "artist": "After",
+          "start": "13:55",
+          "end": "14:35"
+        },
+        {
+          "artist": "Laszewo",
+          "start": "15:10",
+          "end": "16:00"
+        },
+        {
+          "artist": "Malcolm Todd",
+          "start": "16:45",
+          "end": "17:45"
+        },
+        {
+          "artist": "Dijon",
+          "start": "18:30",
+          "end": "19:20"
+        },
+        {
+          "artist": "The xx",
+          "start": "20:10",
+          "end": "21:25"
+        }
+      ],
+      "sutro": [
+        {
+          "artist": "Rio Kosta",
+          "start": "12:35",
+          "end": "13:20"
+        },
+        {
+          "artist": "Wunderhorse",
+          "start": "13:50",
+          "end": "14:35"
+        },
+        {
+          "artist": "Sienna Spiro",
+          "start": "15:05",
+          "end": "15:50"
+        },
+        {
+          "artist": "Yard Act",
+          "start": "16:20",
+          "end": "17:05"
+        },
+        {
+          "artist": "Snow Strippers",
+          "start": "17:35",
+          "end": "18:20"
+        },
+        {
+          "artist": "It's Murph",
+          "start": "18:50",
+          "end": "20:00"
+        },
+        {
+          "artist": "PinkPantheress",
+          "start": "20:45",
+          "end": "21:45"
+        }
+      ],
+      "panhandle": [
+        {
+          "artist": "Ryman",
+          "start": "12:00",
+          "end": "12:30"
+        },
+        {
+          "artist": "Racing Mount Pleasant",
+          "start": "13:10",
+          "end": "13:50"
+        },
+        {
+          "artist": "Ally Evenson",
+          "start": "14:35",
+          "end": "15:05"
+        },
+        {
+          "artist": "Automatic",
+          "start": "16:00",
+          "end": "16:40"
+        },
+        {
+          "artist": "Silvana Estrada",
+          "start": "17:45",
+          "end": "18:25"
+        },
+        {
+          "artist": "DJ Trixie Mattel",
+          "start": "19:20",
+          "end": "20:05"
+        }
+      ],
+      "soma": [
+        {
+          "artist": "Bad Juuju",
+          "start": "12:35",
+          "end": "13:55"
+        },
+        {
+          "artist": "I-800 Girls",
+          "start": "13:55",
+          "end": "15:25"
+        },
+        {
+          "artist": "Camoufly",
+          "start": "15:25",
+          "end": "16:55"
+        },
+        {
+          "artist": "Sultan + Shepard",
+          "start": "16:55",
+          "end": "18:25"
+        },
+        {
+          "artist": "Ben Böhmer",
+          "start": "18:40",
+          "end": "20:10"
+        },
+        {
+          "artist": "Lane 8",
+          "start": "20:25",
+          "end": "21:55"
+        }
+      ],
+      "dolores": [
+        {
+          "artist": "Oasis DJ set: Beverly Chills",
+          "start": "12:30",
+          "end": "13:15"
+        },
+        {
+          "artist": "Out Tonight: A Musical Singalong feat. Darcy Drollinger",
+          "start": "13:15",
+          "end": "14:15"
+        },
+        {
+          "artist": "Reparations with Nick Jizz feat. Kori King",
+          "start": "15:15",
+          "end": "16:45"
+        },
+        {
+          "artist": "Oasis DJ set: DJ Jon on the Prize",
+          "start": "16:45",
+          "end": "17:45"
+        },
+        {
+          "artist": "Princess with Tito Soto feat. Lydia B Kollins",
+          "start": "17:45",
+          "end": "19:15"
+        },
+        {
+          "artist": "Princess DJ set: DJ Vrok",
+          "start": "19:15",
+          "end": "20:30"
+        }
+      ],
+      "duboce_triangle": [
+        {
+          "artist": "Surprise Guest",
+          "start": "12:15",
+          "end": "13:45"
+        },
+        {
+          "artist": "Bandalos Chinos",
+          "start": "14:10",
+          "end": "14:40"
+        },
+        {
+          "artist": "Racing Mount Pleasant",
+          "start": "15:30",
+          "end": "16:00"
+        },
+        {
+          "artist": "Rio Kostia DJ set",
+          "start": "16:50",
+          "end": "17:20"
+        },
+        {
+          "artist": "Laszewo",
+          "start": "18:20",
+          "end": "18:50"
+        },
+        {
+          "artist": "Bad Juuju",
+          "start": "19:50",
+          "end": "20:35"
+        }
+      ],
+      "cocktail_magic": [
+        {
+          "artist": "Bingo Loco",
+          "start": "12:30",
+          "end": "13:15"
+        },
+        {
+          "artist": "Bingo Loco",
+          "start": "13:40",
+          "end": "14:25"
+        },
+        {
+          "artist": "Bingo Loco",
+          "start": "14:50",
+          "end": "15:35"
+        },
+        {
+          "artist": "Open Mic hosted by Rainbow Girls",
+          "start": "16:05",
+          "end": "16:50"
+        },
+        {
+          "artist": "Bootie Mashup: Hip Hop Fuego with DJ Airsun",
+          "start": "17:05",
+          "end": "18:05"
+        },
+        {
+          "artist": "Electric Feels",
+          "start": "18:20",
+          "end": "19:20"
+        }
+      ]
+    },
+    "sunday_2026-08-09": {
+      "lands_end": [
+        {
+          "artist": "San Francisco Gay Men's Chorus",
+          "start": "12:00",
+          "end": "12:40"
+        },
+        {
+          "artist": "Sports",
+          "start": "13:10",
+          "end": "13:55"
+        },
+        {
+          "artist": "Balu Brigada",
+          "start": "14:25",
+          "end": "15:15"
+        },
+        {
+          "artist": "Jade",
+          "start": "15:45",
+          "end": "16:45"
+        },
+        {
+          "artist": "Disco Lines",
+          "start": "17:15",
+          "end": "18:15"
+        },
+        {
+          "artist": "Empire of the Sun",
+          "start": "18:45",
+          "end": "19:45"
+        },
+        {
+          "artist": "Rüfüs Du Sol",
+          "start": "20:25",
+          "end": "21:55"
+        }
+      ],
+      "twin_peaks": [
+        {
+          "artist": "Magnus Ferrell",
+          "start": "12:45",
+          "end": "13:25"
+        },
+        {
+          "artist": "Sosocamo",
+          "start": "14:10",
+          "end": "14:55"
+        },
+        {
+          "artist": "Destin Conrad",
+          "start": "15:40",
+          "end": "16:30"
+        },
+        {
+          "artist": "KWN",
+          "start": "17:15",
+          "end": "18:05"
+        },
+        {
+          "artist": "Mariah the Scientist",
+          "start": "18:50",
+          "end": "19:50"
+        },
+        {
+          "artist": "Baby Keem",
+          "start": "20:40",
+          "end": "21:55"
+        }
+      ],
+      "sutro": [
+        {
+          "artist": "Death Cab for Cutie (early set)",
+          "start": "12:40",
+          "end": "13:30"
+        },
+        {
+          "artist": "Marlon Funaki",
+          "start": "13:50",
+          "end": "14:30"
+        },
+        {
+          "artist": "Momma",
+          "start": "15:00",
+          "end": "15:45"
+        },
+        {
+          "artist": "Kingfishr",
+          "start": "16:15",
+          "end": "17:05"
+        },
+        {
+          "artist": "The Temper Trap",
+          "start": "17:35",
+          "end": "18:25"
+        },
+        {
+          "artist": "Not for Radio",
+          "start": "19:05",
+          "end": "19:55"
+        },
+        {
+          "artist": "Death Cab for Cutie",
+          "start": "20:25",
+          "end": "21:40"
+        }
+      ],
+      "panhandle": [
+        {
+          "artist": "Cruz Beckham",
+          "start": "12:00",
+          "end": "12:40"
+        },
+        {
+          "artist": "Day We Ran",
+          "start": "13:25",
+          "end": "14:05"
+        },
+        {
+          "artist": "Amble",
+          "start": "14:55",
+          "end": "15:35"
+        },
+        {
+          "artist": "Night Tapes",
+          "start": "16:30",
+          "end": "17:10"
+        },
+        {
+          "artist": "Silvana Estrada",
+          "start": "17:45",
+          "end": "18:25"
+        },
+        {
+          "artist": "Infinity Song",
+          "start": "18:05",
+          "end": "18:45",
+          "note": "source shows overlap with Silvana Estrada slot; verify onsite"
+        },
+        {
+          "artist": "Frost Children",
+          "start": "19:50",
+          "end": "20:35"
+        }
+      ],
+      "soma": [
+        {
+          "artist": "Etari",
+          "start": "12:05",
+          "end": "13:35"
+        },
+        {
+          "artist": "X Club",
+          "start": "13:35",
+          "end": "15:10"
+        },
+        {
+          "artist": "Carlita",
+          "start": "15:10",
+          "end": "16:45"
+        },
+        {
+          "artist": "Boys Noize",
+          "start": "16:45",
+          "end": "18:20"
+        },
+        {
+          "artist": "Miss Monique",
+          "start": "18:20",
+          "end": "19:55"
+        },
+        {
+          "artist": "Boris Brejcha",
+          "start": "19:55",
+          "end": "21:55"
+        }
+      ],
+      "dolores": [
+        {
+          "artist": "Charles Hawthorne",
+          "start": "12:45",
+          "end": "14:25"
+        },
+        {
+          "artist": "Mark O'Brien",
+          "start": "14:25",
+          "end": "15:45"
+        },
+        {
+          "artist": "Grace Towers & Friends",
+          "start": "15:45",
+          "end": "16:05"
+        },
+        {
+          "artist": "Stanley Frank Sensation",
+          "start": "16:05",
+          "end": "17:05"
+        },
+        {
+          "artist": "Beya",
+          "start": "17:05",
+          "end": "18:05"
+        },
+        {
+          "artist": "Grace Towers & Friends",
+          "start": "18:05",
+          "end": "18:25"
+        },
+        {
+          "artist": "Elaine & Robin",
+          "start": "18:25",
+          "end": "19:25"
+        },
+        {
+          "artist": "DJ Minx",
+          "start": "19:25",
+          "end": "20:25"
+        }
+      ],
+      "duboce_triangle": [
+        {
+          "artist": "Britton",
+          "start": "14:05",
+          "end": "14:35"
+        },
+        {
+          "artist": "Day We Ran",
+          "start": "15:25",
+          "end": "15:55"
+        },
+        {
+          "artist": "Frost Children DJ set",
+          "start": "16:45",
+          "end": "17:30"
+        },
+        {
+          "artist": "Marlon Funaki",
+          "start": "18:15",
+          "end": "18:45"
+        },
+        {
+          "artist": "Surprise Guest",
+          "start": "19:45",
+          "end": "20:45"
+        }
+      ],
+      "cocktail_magic": [
+        {
+          "artist": "Bingo Loco",
+          "start": "12:30",
+          "end": "13:15"
+        },
+        {
+          "artist": "Bingo Loco",
+          "start": "13:40",
+          "end": "14:25"
+        },
+        {
+          "artist": "Bingo Loco",
+          "start": "14:50",
+          "end": "15:35"
+        },
+        {
+          "artist": "Open Mic hosted by Rainbow Girls",
+          "start": "16:05",
+          "end": "16:50"
+        },
+        {
+          "artist": "Aidan Corcoran",
+          "start": "17:15",
+          "end": "17:45"
+        },
+        {
+          "artist": "Help Me Lose My Mind: UK Garage & House with MPH",
+          "start": "18:00",
+          "end": "19:00"
+        }
+      ]
+    }
+  },
+  "vendors": [
+    {
+      "name": "A16",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Abacá",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "Polo Field North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Abanico Coffee Roasters",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "McLaren Pass - Victorians",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Alicia's Tamales Los Mayas",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "Polo Field North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Arquet",
+      "dishes": [
+        "Lobster roll with brown butter and chives",
+        "BBQ West Coast oysters with garlic butter"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Austronesia",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Azalina's",
+      "dishes": [
+        "Malaysian street food"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Balboa Cafe",
+      "dishes": [
+        "Cold-foam espresso martini on tap",
+        "Chicken paillard sandwich",
+        "Chicken tenders",
+        "Caesar salad wrap",
+        "Chimichurri fries"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Batches Bakehouse",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Bini's Kitchen",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Bloomstock",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Bo's",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Bodega SF",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [
+        {
+          "dish": "Shaking Wagyu beef burrito",
+          "portions_per_day": 10,
+          "note": "sells out early; treat as time-critical"
+        }
+      ],
+      "snack_series": []
+    },
+    {
+      "name": "Brenda's French Soul Food",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Bun Mee Vietnamese Sandwich Eatery",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Caché",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Charles Chocolates",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Chef Smelly's",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Chi Chi's Kiosko",
+      "dishes": [
+        "Grilled tamarind BBQ wings"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Hellman Hollow South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Chiricana",
+      "dishes": [
+        "Panamanian herb-marinated wings"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Hellman Hollow South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Copra",
+      "dishes": [
+        "Chicken kari",
+        "Butter chicken basmati bowl",
+        "Mysore masala dosa"
+      ],
+      "tier": "VIP",
+      "status": "new",
+      "collab": false,
+      "location": "VIP - Polo Field North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Curry Up Now",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "D'Grobak",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Dabao Singapore",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Dolores Park Cafe",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "El Garage",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "El Huarache Loco",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "El Porteño Empanadas",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Event Specialists",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "FOB Kitchen",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Fowl + Fare",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "FroGo",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Gumbo Social",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Hard Knox Cafe",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Hayz Dog",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Humphry Slocombe",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Izzy's Cheesesteaks",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Jaji x Tallboy",
+      "dishes": [
+        "Herb-crusted lamb tenderloin lavash wrap",
+        "Dirty martini olive potato chips"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": true,
+      "location": "Hellman Hollow South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Johnny Doughnuts",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Jollof Kitchen",
+      "dishes": [
+        "Nigerian grilled chicken with jollof rice"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Hellman Hollow South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Kaböb Trölley",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "KAIYŌ",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Kajiken",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Kitiya",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Koja Kitchen",
+      "dishes": [
+        "Korean-Japanese fusion"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Hellman Hollow South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Little Sweet",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [
+        {
+          "dish": "Durian sticky rice waffle with durian ice cream, sticky rice balls, toasted mung bean, coconut milk, strawberry cotton candy",
+          "portions_per_day": 10,
+          "note": "sells out early; treat as time-critical"
+        }
+      ],
+      "snack_series": []
+    },
+    {
+      "name": "Love Burn",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [
+        {
+          "dish": "Cluck Around & Find Out Challenge (4 pieces, rising heat, milk included)",
+          "portions_per_day": 10,
+          "note": "sells out early; treat as time-critical"
+        }
+      ],
+      "snack_series": []
+    },
+    {
+      "name": "Mamahuhu",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Meski",
+      "dishes": [
+        "Ethiopian sampler platter with injera",
+        "Dominican braised chicken sambusas"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Merkado",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Mezclá Eats",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Michoz",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Mi Comedor",
+      "dishes": [
+        "Pineapple al pastor crispy wings"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Mission Street Burgers",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Mozzeria",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Nizario's Pizza",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Nobu",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": [
+        {
+          "dish": "Mini chicken karaage donburi",
+          "price_ceiling_usd": 16
+        }
+      ]
+    },
+    {
+      "name": "Om Sabor",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Original Joe's",
+      "dishes": [
+        "Spicy rigatoni",
+        "Prime rib dip sandwich",
+        "Crispy zucchini fries",
+        "Crispy chicken Caesar salad wrap"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Hellman Hollow South",
+      "limited_edition": [
+        {
+          "dish": "Garlic bread bowl with spicy rigatoni, spicy honey bomba tenders, melted mozzarella",
+          "portions_per_day": 10,
+          "note": "sells out early; treat as time-critical"
+        }
+      ],
+      "snack_series": []
+    },
+    {
+      "name": "OTRA",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Out The Dough",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Out There Coffee Roasters",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Palmetto Superfoods",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Pantry Pigeons",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Paper Son Coffee",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Parachute Bakery",
+      "dishes": [
+        "Vanilla + passionfruit croissant cube",
+        "Yuzu + black sugar pastries",
+        "Gochujang pimento twists"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Hellman Hollow North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Peaches Patties",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Perry's",
+      "dishes": [
+        "Snack burger"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": false,
+      "location": "Lindley Meadow West",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Piglet & Co",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [
+        {
+          "dish": "Uni lou rou fan (five-spice braised pork, uni, smoked trout roe, shoyu tea egg, furikake rice)",
+          "portions_per_day": 10,
+          "note": "sells out early; treat as time-critical"
+        },
+        {
+          "dish": "Honey walnut pork & shrimp sandwich",
+          "portions_per_day": 10,
+          "note": "sells out early; treat as time-critical"
+        }
+      ],
+      "snack_series": [
+        {
+          "dish": "Mini chashao pork bao",
+          "price_ceiling_usd": 16
+        },
+        {
+          "dish": "Mini chashao tofu bao",
+          "price_ceiling_usd": 16
+        }
+      ]
+    },
+    {
+      "name": "Pink Onion",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Poorboy Coffee",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Provecho",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Reem's x Lion Dance Cafe",
+      "dishes": [
+        "Vegan fried eggplant + potato flatbread wrap with sambal tomat"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": true,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": [
+        {
+          "dish": "Half lamb quesabirria flatbread",
+          "price_ceiling_usd": 16
+        }
+      ]
+    },
+    {
+      "name": "Respectable Bird",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Restaurant Naides",
+      "dishes": [
+        "BBQ pork + garlic rice bowl",
+        "Beef tongue skewers",
+        "Lobster lumpia"
+      ],
+      "tier": "VIP",
+      "status": "new",
+      "collab": false,
+      "location": "VIP - Polo Field North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Rocko's Ice Cream Tacos",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Ruru Kitchen",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Sabores Del Sur",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Saigon Sandwich",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Sandy's",
+      "dishes": [
+        "Muffuletta sandwich"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Polo Field North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Sataysfied",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Señor Sisig",
+      "dishes": [
+        "Filipino fusion burritos"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Hellman Hollow North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Sharona's Chocolate Shop",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Shawarmaji",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Smish Smash",
+      "dishes": [
+        "Smashburger"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Polo Field North",
+      "limited_edition": [
+        {
+          "dish": "Uni smashburger",
+          "portions_per_day": 10,
+          "note": "sells out early; treat as time-critical"
+        }
+      ],
+      "snack_series": []
+    },
+    {
+      "name": "Shuggie's",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "STIX",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Sorrel",
+      "dishes": [
+        "Fried chicken sandwich"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Suppenküche",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Tacolicious",
+      "dishes": [
+        "Tacos"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Polo Field South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Tano",
+      "dishes": [
+        "Ube diplomat cream salt bread",
+        "Sourdough focaccia crazy bread",
+        "Sesame toffee chocolate chip cookie"
+      ],
+      "tier": "VIP",
+      "status": "new",
+      "collab": false,
+      "location": "VIP - Polo Field North",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "The Caviar Co.",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "The Golden Coop",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Tiya",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Total Meltdown",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "um.ma",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Wahpepah's Kitchen",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Wise Sons x Outta Sight Pizza",
+      "dishes": [
+        "Pizza bagel with burrata",
+        "Hot pastrami dip sandwich",
+        "Cacio e pepe french fries"
+      ],
+      "tier": "GA",
+      "status": "new",
+      "collab": true,
+      "location": "Polo Field North",
+      "flag": "DEMO_ANCHOR",
+      "prices": [
+        {
+          "dish": "Pizza bagel with burrata",
+          "price_usd": 16,
+          "source": "Venue menu, confirmed 2026-08-02"
+        }
+      ],
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Woodhouse Fish Co.",
+      "dishes": [
+        "Seafood"
+      ],
+      "tier": "GA",
+      "status": "returning",
+      "collab": false,
+      "location": "Hellman Hollow South",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Wooly Pig",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    },
+    {
+      "name": "Xolo Taqueria",
+      "dishes": [],
+      "tier": "GA",
+      "status": "unknown",
+      "collab": false,
+      "location": "TBD",
+      "limited_edition": [],
+      "snack_series": []
+    }
+  ],
+  "demo_conflict": {
+    "name": "Clipse vs the pizza bagel",
+    "day": "friday_2026-08-07",
+    "set": {
+      "artist": "Clipse",
+      "stage": "twin_peaks",
+      "start": "18:45",
+      "end": "19:35"
+    },
+    "food": {
+      "vendor": "Wise Sons x Outta Sight Pizza",
+      "dish": "Pizza bagel with burrata",
+      "location": "TBD",
+      "price_usd": 16,
+      "price_source": "Venue menu, confirmed 2026-08-02"
+    },
+    "assumptions": [
+      "Vendor stand location unknown until OSL app/map drops; demo assumes it lands on the opposite side of the park from Twin Peaks, per the original pitch",
+      "Queue time assumed 15-25 min at dinner hour"
+    ],
+    "cost_sentence_template": "Leave {stage} at {t}, walk {walk} min, wait {queue} min, and you hand back {overlap} minutes of {artist}."
+  },
+  "scarcity_rules": {
+    "limited_edition": {
+      "portions_per_day": 10,
+      "implication": "A limited-edition dish is not a 20-minute detour, it is a be-there-early-or-never decision. Cost model should treat these as expiring inventory, not queue time."
+    },
+    "snack_series": {
+      "price_ceiling_usd": 16,
+      "implication": "Published Snack Series items cost $16 or less. Do not infer a portion size or time saving where one is not listed."
+    }
+  }
+}
